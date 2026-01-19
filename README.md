@@ -74,14 +74,14 @@ All logic is implemented using **direct system calls**, without any runtime or s
 
 ### Assemble and Link
     ```bash
-      nasm -f elf64 server.asm -o server.o
-      ld server.o -o server
+          nasm -f elf64 server.asm -o server.o
+          ld server.o -o server
 
 ---
 
 ### Run
     ```bash
-      ./server
+          ./server
 
 ---
 
