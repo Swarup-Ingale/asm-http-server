@@ -142,4 +142,4 @@ MIT License — free to use for learning, research, and experimentation.
 
 ---
 
-## This project demonstrates how I approach systems, security, and low-level engineering problems: by understanding fundamentals, questioning abstractions, and building from the ground up.
+**This project demonstrates how I approach systems, security, and low-level engineering problems: by understanding fundamentals, questioning abstractions, and building from the ground up.**
