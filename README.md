@@ -73,26 +73,25 @@ All logic is implemented using **direct system calls**, without any runtime or s
 ## Build & Run
 
 ### Assemble and Link
-    ```bash
+
           nasm -f elf64 server.asm -o server.o
           ld server.o -o server
 
 ---
 
 ### Run
-    ```bash
           ./server
 
 ---
 
 ### Test GET
-    ```bash
+
       curl http://localhost:20480/example.txt
 
 ---
 
 ### Test POST
-    ```bash
+
       curl -X POST http://localhost:20480/output.txt -d "Hello World"
 
 ---
