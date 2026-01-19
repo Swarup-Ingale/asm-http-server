@@ -1,1 +1,22 @@
+# x86_64 Assembly HTTP Server – build artifacts only
 
+# Build artifacts
+*.o
+*.out
+*.bin
+server
+
+# NASM / assembler temp files
+*.lst
+*.map
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Debug / core dumps
+core
+core.*
